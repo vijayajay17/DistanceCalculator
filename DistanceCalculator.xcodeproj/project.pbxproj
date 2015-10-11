@@ -113,23 +113,16 @@
 		341BF7B71BC97F9000A66AC0 /* DistanceCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				341BF7F11BC97FF000A66AC0 /* gistfile1.txt */,
-				341BF7BB1BC97F9000A66AC0 /* AppDelegate.h */,
-				341BF7BC1BC97F9000A66AC0 /* AppDelegate.m */,
-				341BF7BE1BC97F9000A66AC0 /* ViewController.h */,
-				341BF7BF1BC97F9000A66AC0 /* ViewController.m */,
+				341BF8401BCA349200A66AC0 /* AppDelegate */,
+				341BF83F1BCA348600A66AC0 /* Utils */,
+				341BF83E1BCA347700A66AC0 /* DistanceCalucaltion */,
+				341BF83D1BCA346900A66AC0 /* JSONDeserializer */,
+				341BF83C1BCA345700A66AC0 /* ViewController */,
 				341BF7C11BC97F9000A66AC0 /* Main.storyboard */,
 				341BF7C41BC97F9000A66AC0 /* Assets.xcassets */,
 				341BF7C61BC97F9000A66AC0 /* LaunchScreen.storyboard */,
 				341BF7C91BC97F9000A66AC0 /* Info.plist */,
-				341BF7F71BC9957800A66AC0 /* Util.h */,
-				341BF7F81BC9957800A66AC0 /* Util.m */,
 				341BF7B81BC97F9000A66AC0 /* Supporting Files */,
-				341BF7EB1BC97FCA00A66AC0 /* JSONDeserializer.h */,
-				341BF7EC1BC97FCA00A66AC0 /* JSONDeserializer.m */,
-				341BF7EE1BC97FDD00A66AC0 /* DistanceCalculationClass.h */,
-				341BF7EF1BC97FDD00A66AC0 /* DistanceCalculationClass.m */,
-				341BF7F31BC9816C00A66AC0 /* Constants.h */,
 			);
 			path = DistanceCalculator;
 			sourceTree = "<group>";
@@ -137,6 +130,7 @@
 		341BF7B81BC97F9000A66AC0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				341BF7F11BC97FF000A66AC0 /* gistfile1.txt */,
 				341BF7B91BC97F9000A66AC0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -158,6 +152,52 @@
 				341BF7DF1BC97F9000A66AC0 /* Info.plist */,
 			);
 			path = DistanceCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		341BF83C1BCA345700A66AC0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				341BF7BE1BC97F9000A66AC0 /* ViewController.h */,
+				341BF7BF1BC97F9000A66AC0 /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		341BF83D1BCA346900A66AC0 /* JSONDeserializer */ = {
+			isa = PBXGroup;
+			children = (
+				341BF7EB1BC97FCA00A66AC0 /* JSONDeserializer.h */,
+				341BF7EC1BC97FCA00A66AC0 /* JSONDeserializer.m */,
+			);
+			name = JSONDeserializer;
+			sourceTree = "<group>";
+		};
+		341BF83E1BCA347700A66AC0 /* DistanceCalucaltion */ = {
+			isa = PBXGroup;
+			children = (
+				341BF7EE1BC97FDD00A66AC0 /* DistanceCalculationClass.h */,
+				341BF7EF1BC97FDD00A66AC0 /* DistanceCalculationClass.m */,
+			);
+			name = DistanceCalucaltion;
+			sourceTree = "<group>";
+		};
+		341BF83F1BCA348600A66AC0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				341BF7F71BC9957800A66AC0 /* Util.h */,
+				341BF7F81BC9957800A66AC0 /* Util.m */,
+				341BF7F31BC9816C00A66AC0 /* Constants.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		341BF8401BCA349200A66AC0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				341BF7BB1BC97F9000A66AC0 /* AppDelegate.h */,
+				341BF7BC1BC97F9000A66AC0 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
