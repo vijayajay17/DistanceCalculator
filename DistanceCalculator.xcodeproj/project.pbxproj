@@ -19,6 +19,8 @@
 		341BF7F01BC97FDD00A66AC0 /* DistanceCalculationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BF7EF1BC97FDD00A66AC0 /* DistanceCalculationClass.m */; settings = {ASSET_TAGS = (); }; };
 		341BF7F21BC97FF000A66AC0 /* gistfile1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 341BF7F11BC97FF000A66AC0 /* gistfile1.txt */; settings = {ASSET_TAGS = (); }; };
 		341BF7F91BC9957800A66AC0 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BF7F81BC9957800A66AC0 /* Util.m */; settings = {ASSET_TAGS = (); }; };
+		341BF8421BCA9DAD00A66AC0 /* JSONDeserializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BF8411BCA9DAD00A66AC0 /* JSONDeserializerTests.m */; settings = {ASSET_TAGS = (); }; };
+		341BF8441BCA9F4B00A66AC0 /* DistanceCalculationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 341BF8431BCA9F4B00A66AC0 /* DistanceCalculationTests.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		341BF7F31BC9816C00A66AC0 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		341BF7F71BC9957800A66AC0 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		341BF7F81BC9957800A66AC0 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		341BF8411BCA9DAD00A66AC0 /* JSONDeserializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONDeserializerTests.m; sourceTree = "<group>"; };
+		341BF8431BCA9F4B00A66AC0 /* DistanceCalculationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceCalculationTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				341BF7D21BC97F9000A66AC0 /* DistanceCalculatorTests.m */,
+				341BF8411BCA9DAD00A66AC0 /* JSONDeserializerTests.m */,
+				341BF8431BCA9F4B00A66AC0 /* DistanceCalculationTests.m */,
 				341BF7D41BC97F9000A66AC0 /* Info.plist */,
 			);
 			path = DistanceCalculatorTests;
@@ -344,6 +350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341BF8421BCA9DAD00A66AC0 /* JSONDeserializerTests.m in Sources */,
+				341BF8441BCA9F4B00A66AC0 /* DistanceCalculationTests.m in Sources */,
 				341BF7D31BC97F9000A66AC0 /* DistanceCalculatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
